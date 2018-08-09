@@ -432,6 +432,8 @@ Currently, the `@compat` macro supports the following syntaxes:
 
 * `atan2` is now a 2-argument method of `atan` ([#27253]).
 
+* `isdefined(::Symbol)` is now `@isdefined` ([#22064).
+
 ## New macros
 
 * `@__DIR__` has been added ([#18380])
